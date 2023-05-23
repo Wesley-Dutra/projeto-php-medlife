@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(188, 210, 161);
+}
+
+#background {
+    height: 100vh;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);
+}
+
+#home {
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+#cab {
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    padding: 20px;
+    width: 100%;
+}
+
+#cab-home {
+    margin: 25px;
+}
+
+#cab-home a, .btn-insere {
+    background-color: rgba(161, 181, 118, 0.489);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.btn-insere {
+    background-color: rgba(118, 134, 84, 0.645);
+    border: none;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.btn-insere:hover {
+    padding-bottom: 5px;
+    padding-right: 25px;
+}
+
+#cab-home a:hover, .btn-insere:hover {
+    background-color: rgba(127, 143, 93, 0.629);
+    border-bottom: 5px solid rgb(48, 52, 38);
+    border-right: 5px solid rgb(48, 52, 38);
+    border-bottom-right-radius: 4px;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+}
+
+#subdiv1 {
+    max-width: 65%;
+}
+
+#subdiv1 img {
+    width: 15vw;
+}
+
+#subdiv1 p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: centerlogo eu;
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#subdiv2 {
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(115, 133, 86, 0.721);
+    border: 2px solid rgba(255, 255, 255, 0.608);
+}
+
+#subdiv2 h3 {
+    margin-bottom: 20px;    
+}
+
+#subdiv2 a {
+    text-decoration: none;
+    color: white;     
+}
+
+.atalhos {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.516);
+    margin: 10px 0;
+}
+
+.atalhos:hover {
+    background-color: rgba(255, 255, 255, 0.516);
+    transition: all 1s ease;
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    max-height: 600px;
+}
+
+#tabela table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow-y: scroll;
+} 
+
+.thead th {
+    background-color: rgba(131, 149, 102, 0.772);
+    color: white;
+    border: 1px solid black;
+    padding:  10px 30px;
+}
+
+table td {
+    max-width: 300px;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: rgba(119, 134, 95, 0.721);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(146, 163, 119, 0.721);
+}
